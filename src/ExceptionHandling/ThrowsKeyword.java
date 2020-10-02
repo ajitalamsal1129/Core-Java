@@ -1,0 +1,40 @@
+package ExceptionHandling;
+
+public class ThrowsKeyword {
+
+//	public static void main(String[] args) throws ArithmeticException {
+//		ThrowsKeyword obj=new ThrowsKeyword();
+//		obj.sum();
+//		
+//
+//	}
+//	public void sum() throws ArithmeticException {
+//		div();
+//	}
+//	
+//	public void div() throws ArithmeticException{
+//		int i=9/0;//exception line
+//	}
+//
+//}
+
+public static void main(String[] args)  {
+	ThrowsKeyword obj=new ThrowsKeyword();
+	obj.sum();
+	System.out.println("ABC");
+	
+
+}
+public void sum()  {
+	try {
+	div();
+	}catch(ArithmeticException e){
+}
+}
+
+public void div() throws ArithmeticException{
+	int i=9/0;//exception line
+}
+
+}
+
